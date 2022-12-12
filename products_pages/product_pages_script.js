@@ -67,7 +67,7 @@ class Card {
 
         if(window.location.pathname == "/products_pages/pizza_page.html") {
 
-            this.imgSrc = `images/pizza/pizza${Card.id}.png`;
+            this.imgSrc = `images/pizza${Card.id}.png`;
             this.price = default_prices_pizza[Card.id];
             this.name = default_names_pizza[Card.id];
 
