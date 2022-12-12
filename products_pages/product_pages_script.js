@@ -99,7 +99,7 @@ class Card {
 
 
         this.div.innerHTML = `
-            <img class="product_card_pic" src="images/${this.imgSrc}">
+            <img class="product_card_pic" src="/products_pages/images/${this.imgSrc}">
             <div class="product_card_info">
                 <span class="product_card_name">${this.name}</span>
                 <span class="product_card_price">от ${this.price} руб.</span>
