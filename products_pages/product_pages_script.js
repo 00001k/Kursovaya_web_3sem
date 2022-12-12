@@ -64,6 +64,7 @@ class Card {
 
         this.div = document.createElement('div');
         this.div.classList.add('product_card');
+        console.log(window.location.pathname);
 
         if(window.location.pathname.indexOf("pizza_page") > 0) {
 
@@ -116,6 +117,7 @@ class Card {
 
 var cards = new Array();
 const main = document.querySelector('main');
+console.log(main);
 if(window.location.pathname.indexOf("pizza_page") > 0) {
     addCards(cards, default_names_pizza.length);
 }
