@@ -1,0 +1,328 @@
+@media screen and (max-width: 1760px){
+    
+    #about_us_footer{
+        font-size: 24px;
+    }
+    #about_us_footer:hover{
+        height: 75%;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    footer{
+        height: 300px;
+        grid-template-rows: 300px;
+    }
+
+    #about_us_footer{
+        font-size: 24px;
+    }
+
+    #about_us_footer:hover{
+        height: 92%;
+        width: 80%;
+    }
+
+    #contacts_footer{
+        height: 57%;
+    }
+
+    .contacts_links{
+        font-size: 28px;
+    }
+
+    .contacts_opisanie{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #about_us_footer{
+        font-size: 20px;
+        height: 35px;
+    }
+
+    #about_us_footer:hover{
+        height: 80%;
+        width: 85%;
+    }
+
+    .contacts_links{
+        font-size: 24px;
+    }
+
+    .contacts_opisanie{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 940px){
+
+    header{
+        height: 100px;
+        grid-template-rows: 100px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    #login_div{
+        height: 40px;
+        width: 150px;
+    }
+
+    #avatar{
+        width: 40px;
+        height: 40px;
+    }
+
+    #login_button{
+        width: 120px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    #circle_menu_div{
+        margin-top: 100px;
+        width: 750px;
+        height: 630px;
+        padding: 60px 150px;
+    }
+
+    footer{
+        height: 233px;
+        grid-template-rows: 233px;
+    }
+
+    #about_us_footer{
+        font-size: 17px;
+    }
+
+    #about_us_footer:hover{
+        height: 87%;
+        width: 85%;
+    }
+
+    #contacts_footer{
+        height: 65%;
+    }
+
+    .contacts_links{
+        font-size: 18px;
+    }
+
+    .contacts_opisanie{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    header{ 
+        height: 70px;
+        grid-template-rows: 70px;
+    }
+
+    h1{ 
+        font-size: 50px;
+        filter: drop-shadow(6px 6px black);
+    }
+
+    #login_div{ 
+        height: 30px;
+        width: 100px;
+    }
+
+    #avatar{ 
+        width: 30px;
+        height: 30px;
+    }
+
+    #login_button{ 
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    #circle_menu_div{
+        margin-top: 70px;
+        width: 600px;
+        height: 500px;
+        padding: 40px 120px;
+    }
+
+    footer{
+        grid-template-rows: 260px 340px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "right-side"    
+            "left-side";
+        align-items: center;
+        height: 600px;
+    }
+
+    #about_us_footer{ 
+        justify-self: center;
+        align-self: start;
+        font-size: 20px;
+        height: 30px;
+    }
+
+    #about_us_footer p{
+        top: 2px;
+    }
+
+    #about_us_footer:hover{ 
+        height: 70%;
+        width: 75%;
+    }
+
+    #contacts_footer{
+        justify-self: center;
+        height: 95%;
+    }
+
+    .contacts_opisanie{
+        margin: 7px;
+        font-size: 24px;
+    }
+
+    .contacts_links{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "logo login";
+    }
+
+    #login_div{
+        border: 2px solid black;
+    }
+
+    #login_button{
+        border-left: 2px solid black;
+    }
+
+    #circle_menu_div{ 
+        width: 700px;
+        height: 500px;
+        padding: 40px 100px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    footer{
+        grid-template-rows: 260px 340px;
+        height: 600px;
+    }
+
+    #about_us_footer{ 
+        font-size: 20px;
+        height: 35px;
+    }
+
+    #about_us_footer p{
+        top: 2px;
+    }
+
+    #about_us_footer:hover{ 
+        height: 70%;
+        width: 95%;
+    }
+
+    #contacts_footer{
+        justify-self: center;
+        height: 95%;
+        width: 95%;
+    }
+
+    .contacts_opisanie{
+        margin: 7px;
+        font-size: 24px;
+    }
+
+    .contacts_links{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    h1 {
+        font-size: 35px;
+        filter: drop-shadow(4px 4px black);
+    }
+
+    header{
+        height: 70px;
+        grid-template-rows: 70px;
+    }
+
+    #login_div{ 
+        height: 20px;
+        width: 80px;
+    }
+
+    #avatar{ 
+        width: 20px;
+        height: 20px;
+    }
+
+    #login_button{ 
+        width: 65px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    #circle_menu_div{ 
+        margin-top: 70px;
+        width: 600px;
+        height: 400px;
+        padding: 35px 75px;
+    }
+
+    #about_us_footer{ 
+        font-size: 17px;
+        width: 17%;
+    }
+
+    #login_div{
+        margin-right: 7px;
+    }
+
+    .contacts_opisanie{
+        margin: 7px;
+        font-size: 18px;
+    }
+
+    .contacts_links{
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    #circle_menu_div{ 
+        width: 400px;
+        height: 300px;
+        padding: 25px 65px;
+    }
+
+}
