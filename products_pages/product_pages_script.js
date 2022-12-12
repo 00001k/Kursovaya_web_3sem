@@ -67,7 +67,7 @@ class Card {
 
         if(window.location.pathname == "/products_pages/pizza_page.html") {
 
-            this.imgSrc = `pizza/pizza${Card.id}.png`;
+            this.imgSrc = `images/pizza/pizza${Card.id}.png`;
             this.price = default_prices_pizza[Card.id];
             this.name = default_names_pizza[Card.id];
 
@@ -75,7 +75,7 @@ class Card {
 
         if(window.location.pathname == "/products_pages/sushi_page.html") {
 
-            this.imgSrc = `sushi/sushi${Card.id}.png`;
+            this.imgSrc = `images/sushi/sushi${Card.id}.png`;
             this.price = default_prices_sushi[Card.id];
             this.name = "Ролл " + default_names_sushi[Card.id];
 
@@ -83,7 +83,7 @@ class Card {
 
         if(window.location.pathname == "/products_pages/drinks_page.html") {
 
-            this.imgSrc = `drinks/drink${Card.id}.png`;
+            this.imgSrc = `images/drinks/drink${Card.id}.png`;
             this.price = default_prices_drinks[Card.id];
             this.name = default_names_drinks[Card.id];
 
@@ -91,7 +91,7 @@ class Card {
 
         if(window.location.pathname == "/products_pages/desserts_page.html") {
 
-            this.imgSrc = `desserts/dessert${Card.id}.png`;
+            this.imgSrc = `images/desserts/dessert${Card.id}.png`;
             this.price = default_prices_desserts[Card.id];
             this.name = default_names_desserts[Card.id];
 
@@ -99,7 +99,7 @@ class Card {
 
 
         this.div.innerHTML = `
-            <img class="product_card_pic" src="/products_pages/images/${this.imgSrc}">
+            <img class="product_card_pic" src="${this.imgSrc}">
             <div class="product_card_info">
                 <span class="product_card_name">${this.name}</span>
                 <span class="product_card_price">от ${this.price} руб.</span>
