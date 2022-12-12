@@ -75,6 +75,6 @@ circle_menu.addEventListener("mouseout", (e) => {
 var h1 = document.querySelector('h1');
 h1.addEventListener('click', () => {
 
-    window.location.href = "http://127.0.0.1:5500/main_menu_page/index.html";
+    window.location.href = "http://127.0.0.1:5500/index.html";
 
 });

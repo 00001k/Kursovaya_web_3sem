@@ -63,10 +63,6 @@ h1:hover{
     transition: .3s;
 }
 
-#avatar:hover{      /*Убрать, если не сделаю страницу с профилем*/
-    background-color: #CC4400;
-    background-image: url("images/avatar-inverted.png");
-}
 
 #login_button{
     width: 135px;
