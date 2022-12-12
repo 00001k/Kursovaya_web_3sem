@@ -65,7 +65,7 @@ class Card {
         this.div = document.createElement('div');
         this.div.classList.add('product_card');
 
-        if(window.location.pathname == "/products_pages/pizza_page.html") {
+        if(window.location.pathname.indexOf("pizza_page") > 0) {
 
             this.imgSrc = `images/pizza${Card.id}.png`;
             this.price = default_prices_pizza[Card.id];
@@ -73,7 +73,7 @@ class Card {
 
         }
 
-        if(window.location.pathname == "/products_pages/sushi_page.html") {
+        if(window.location.pathname.indexOf("sushi_page") > 0) {
 
             this.imgSrc = `images/sushi/sushi${Card.id}.png`;
             this.price = default_prices_sushi[Card.id];
@@ -81,7 +81,7 @@ class Card {
 
         }
 
-        if(window.location.pathname == "/products_pages/drinks_page.html") {
+        if(window.location.pathname.indexOf("drinks_page") > 0) {
 
             this.imgSrc = `images/drinks/drink${Card.id}.png`;
             this.price = default_prices_drinks[Card.id];
@@ -89,7 +89,7 @@ class Card {
 
         }
 
-        if(window.location.pathname == "/products_pages/desserts_page.html") {
+        if(window.location.pathname.indexOf("desserts_page") > 0) {
 
             this.imgSrc = `images/desserts/dessert${Card.id}.png`;
             this.price = default_prices_desserts[Card.id];
@@ -116,16 +116,16 @@ class Card {
 
 var cards = new Array();
 const main = document.querySelector('main');
-if(window.location.pathname == "/products_pages/pizza_page.html") {
+if(window.location.pathname.indexOf("pizza_page") > 0) {
     addCards(cards, default_names_pizza.length);
 }
-else if(window.location.pathname == "/products_pages/sushi_page.html") {
+else if(window.location.pathname.indexOf("sushi_page") > 0) {
     addCards(cards, default_names_sushi.length);
 }
-else if(window.location.pathname == "/products_pages/drinks_page.html") {
+else if(window.location.pathname.indexOf("drinks_page") > 0) {
     addCards(cards, default_names_drinks.length);
 }
-else if(window.location.pathname == "/products_pages/desserts_page.html") {
+else if(window.location.pathname.indexOf("desserts_page") > 0) {
     addCards(cards, default_names_desserts.length);
 }
 
