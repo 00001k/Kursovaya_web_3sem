@@ -142,7 +142,6 @@ var div4nav_links_style = `pointer-events: none; width: 50%; height: 50%;
 overflow: hidden;   
 transition: .3s;`;  //css style for div4nav_links
 circle_menu.addEventListener("mouseover", (e) => {
-
     let tmp_style;
     //console.log(e.target);
     div4nav_links[0].style.pointerEvents = "all";
@@ -182,9 +181,7 @@ circle_menu.addEventListener("mouseover", (e) => {
             tmp_style += "pointer-events: all;";
             div4nav_links[3].style.cssText = tmp_style;
             break;
-
     }
-
 });
 
 circle_menu.addEventListener("mouseout", (e) => {
