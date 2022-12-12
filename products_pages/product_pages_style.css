@@ -275,6 +275,8 @@ h1:hover{
     font-family: "Gogono";
     transition: 1s;
     z-index: -1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 #total_price{

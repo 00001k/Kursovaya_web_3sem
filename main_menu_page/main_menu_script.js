@@ -75,6 +75,6 @@ circle_menu.addEventListener("mouseout", (e) => {
 var h1 = document.querySelector('h1');
 h1.addEventListener('click', () => {
 
-    window.location.href = "/index.html";
+    window.location.href = "https://lilshkrek.github.io/Kursovaya_web_3sem/index.html";
 
 });
